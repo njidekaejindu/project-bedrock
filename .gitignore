@@ -1,0 +1,10 @@
+**/.terraform/*
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/.terraform.lock.hcl
+**/terraform.tfvars
+grading.json
+.DS_Store
+Thumbs.db
+!grading.json

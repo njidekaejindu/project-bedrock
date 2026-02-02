@@ -12,3 +12,8 @@ variable "vpc_cidr" {
   type    = string
   default = "10.0.0.0/16"
 }
+
+variable "assets_bucket_name" {
+  description = "S3 bucket for assets uploads"
+  type        = string
+}
