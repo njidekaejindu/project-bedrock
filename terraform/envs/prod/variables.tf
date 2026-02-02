@@ -22,8 +22,3 @@ variable "region" {
   description = "AWS region"
   type        = string
 }
-
-variable "assets_bucket_name" {
-  description = "S3 bucket name for Bedrock assets"
-  type        = string
-}

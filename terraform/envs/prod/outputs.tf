@@ -32,8 +32,3 @@ output "assets_bucket_name" {
   description = "S3 bucket for assets uploads"
   value       = var.assets_bucket_name
 }
-
-variable "region" {
-  description = "AWS region"
-  type        = string
-}
