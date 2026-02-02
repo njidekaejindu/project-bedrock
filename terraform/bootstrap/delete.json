@@ -1,0 +1,10 @@
+{
+  "Objects": [
+    { "Key": "project-bedrock/prod/terraform.tfstate", "VersionId": "_ADtmnh3LZp_qCvFAq3kE5N29QYicmLJ" },
+    { "Key": "project-bedrock/prod/terraform.tfstate", "VersionId": "uBN7JwG0LWrbXnkfn5TQ.U6ZNQr3s7tc" },
+    { "Key": "project-bedrock/prod/terraform.tfstate", "VersionId": "kZbWceGuJeQp5onetxfhuRt0WyX54s5J" },
+    { "Key": "project-bedrock/prod/terraform.tfstate", "VersionId": "0uKGdNtUOHBrN8LmPdV3co7ImCVTtOFZ" },
+    { "Key": "project-bedrock/prod/terraform.tfstate", "VersionId": "LrLjzCdBJZrPh57e6fAjZ2YiVvjozo_f" }
+  ],
+  "Quiet": true
+}

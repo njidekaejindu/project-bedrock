@@ -1,0 +1,14 @@
+variable "project_name" {
+  type    = string
+  default = "project-bedrock"
+}
+
+variable "vpc_name_tag" {
+  type    = string
+  default = "project-bedrock-vpc"
+}
+
+variable "vpc_cidr" {
+  type    = string
+  default = "10.0.0.0/16"
+}
