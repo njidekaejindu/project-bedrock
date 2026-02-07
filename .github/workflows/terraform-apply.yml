@@ -47,3 +47,7 @@ jobs:
         with:
           name: grading-json
           path: terraform/grading.json
+
+      - name: Who am I
+        run: aws sts get-caller-identity
+
