@@ -32,10 +32,16 @@ jobs:
 
       - name: Terraform Init
         working-directory: terraform/envs/prod
+        env:
+          TF_VAR_catalog_db_password: ${{ secrets.TF_VAR_catalog_db_password }}
+          TF_VAR_orders_db_password: ${{ secrets.TF_VAR_orders_db_password }}
         run: terraform init -input=false
 
       - name: Terraform Apply
         working-directory: terraform/envs/prod
+        env:
+          TF_VAR_catalog_db_password: ${{ secrets.TF_VAR_catalog_db_password }}
+          TF_VAR_orders_db_password: ${{ secrets.TF_VAR_orders_db_password }}
         run: terraform apply -auto-approve -input=false
 
       - name: Generate grading.json
@@ -50,4 +56,3 @@ jobs:
 
       - name: Who am I
         run: aws sts get-caller-identity
-
