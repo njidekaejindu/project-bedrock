@@ -24,3 +24,15 @@ variable "region" {
   type        = string
   default     = "us-east-1"
 }
+
+variable "catalog_db_password" {
+  description = "Password for catalog RDS MySQL"
+  type        = string
+  sensitive   = true
+}
+
+variable "orders_db_password" {
+  description = "Password for orders RDS PostgreSQL"
+  type        = string
+  sensitive   = true
+}
