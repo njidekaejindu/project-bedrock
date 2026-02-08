@@ -2,7 +2,7 @@
   "assets_bucket_name": {
     "sensitive": false,
     "type": "string",
-    "value": "bedrock-assets-025-1181-newacct"
+    "value": "bedrock-assets-alt-soe-025-1181"
   },
   "catalog_rds_endpoint": {
     "sensitive": false,
